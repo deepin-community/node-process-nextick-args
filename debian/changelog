@@ -1,0 +1,52 @@
+node-process-nextick-args (2.0.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Remove obsolete field Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends: Drop versioned constraint on node-tap.
+  * Bump debhelper from old 12 to 13.
+
+  [ Bastien Roucariès ]
+  * New upstream version
+  * Bump standard version (no changes)
+  * Move to dh-sequence-nodejs
+  * MA: foreign
+
+ -- Bastien Roucariès <rouca@debian.org>  Tue, 28 Sep 2021 19:44:43 +0000
+
+node-process-nextick-args (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Move to javascript section
+  * Bump compat and policy (no changes)
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 22 Feb 2018 14:52:18 +0100
+
+node-process-nextick-args (1.0.8-1) unstable; urgency=medium
+
+  * New upstream release
+  * Use secure URIs
+  * Bump standards version, no changes required
+
+ -- Ross Gammon <rossgammon@mail.dk>  Sat, 11 Jun 2016 15:41:18 +0200
+
+node-process-nextick-args (1.0.6-1) unstable; urgency=medium
+
+  * New upstream release
+  * Move upstream metadata to the correct place
+
+ -- Ross Gammon <rossgammon@mail.dk>  Wed, 23 Dec 2015 14:33:54 +0100
+
+node-process-nextick-args (1.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #796362)
+
+ -- Ross Gammon <rossgammon@mail.dk>  Sun, 13 Sep 2015 17:29:26 +0200
