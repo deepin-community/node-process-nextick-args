@@ -1,5 +1,0 @@
-Tests: require
-Depends: node-process-nextick-args, nodejs (>=6)
-
-Tests: runtestsuite
-Depends: node-process-nextick-args, nodejs (>=6), node-tap (>=0.2.6)
